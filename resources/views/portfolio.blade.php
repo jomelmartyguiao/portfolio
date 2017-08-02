@@ -53,7 +53,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum fringilla sem, non varius eros vehicula eu. Etiam libero nisl, bibendum quis efficitur at, gravida eget purus. Morbi ullamcorper euismod dui, vel fermentum lacus dignissim sed. Nunc sit amet libero vitae odio convallis aliquet. Phasellus odio dui, malesuada nec commodo at, interdum a ante. Praesent eu massa et quam porta efficitur sit amet id lorem. In feugiat diam sed consectetur finibus. Proin et dolor enim.</p>
             </div>
             <div class="col-md-2 my-picture-container">
-                <img src="{{asset('/img/businessman.png') }}" />
+                <img src="{{url('/img/businessman.png') }}" />
             </div>
             <div class="col-md-5 wow fadeInRight">
                 <div class="about-header">
@@ -84,7 +84,7 @@
         <div class="row">
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
-                    <img src="{{asset('/img/html.svg') }}" />
+                    <img src="{{url('/img/html.svg') }}" />
                     <p>HTML</p>
                 </div>
                 <div class="progress-bar-container">
@@ -98,7 +98,7 @@
             </div>
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
-                    <img src="{{asset('/img/html.svg') }}" />
+                    <img src="{{url('/img/html.svg') }}" />
                     <p>HTML</p>
                 </div>
                 <div class="progress-bar-container">
@@ -112,7 +112,7 @@
             </div>
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
-                    <img src="{{asset('/img/html.svg') }}" />
+                    <img src="{{url('/img/html.svg') }}" />
                     <p>HTML</p>
                 </div>
                 <div class="progress-bar-container">
@@ -126,7 +126,7 @@
             </div>
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
-                    <img src="{{asset('/img/html.svg') }}" />
+                    <img src="{{url('/img/html.svg') }}" />
                     <p>HTML</p>
                 </div>
                 <div class="progress-bar-container">
@@ -142,7 +142,7 @@
         <div class="row row-margin">
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
-                    <img src="{{asset('/img/html.svg') }}" />
+                    <img src="{{url('/img/html.svg') }}" />
                     <p>HTML</p>
                 </div>
                 <div class="progress-bar-container">
@@ -156,7 +156,7 @@
             </div>
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
-                    <img src="{{asset('/img/html.svg') }}" />
+                    <img src="{{url('/img/html.svg') }}" />
                     <p>HTML</p>
                 </div>
                 <div class="progress-bar-container">
@@ -170,7 +170,7 @@
             </div>
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
-                    <img src="{{asset('/img/html.svg') }}" />
+                    <img src="{{url('/img/html.svg') }}" />
                     <p>HTML</p>
                 </div>
                 <div class="progress-bar-container">
@@ -184,7 +184,7 @@
             </div>
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
-                    <img src="{{asset('/img/html.svg') }}" />
+                    <img src="{{url('/img/html.svg') }}" />
                     <p>HTML</p>
                 </div>
                 <div class="progress-bar-container">
@@ -212,8 +212,8 @@
                 <div class="row row-img">
                     <div class="col-sm-3 wow zoomIn">
                         <div class="img-container">
-                            <img src="{{asset('/img/republisys-gray.png') }}"/>
-                            <img class="img-hover-display" src="{{asset('/img/republisys.png') }}"/>
+                            <img src="{{url('/img/republisys-gray.png') }}"/>
+                            <img class="img-hover-display" src="{{url('/img/republisys.png') }}"/>
                         </div>
                     </div>
                     <div class="col-md-9">
@@ -236,8 +236,8 @@
                 <div class="row row-img">
                     <div class="col-sm-3 wow zoomIn">
                         <div class="img-container ">
-                            <img src="{{asset('/img/codeninja-gray.png') }}"/>
-                            <img class="img-hover-display" src="{{asset('/img/codeninja.png') }}"/>
+                            <img src="{{url('/img/codeninja-gray.png') }}"/>
+                            <img class="img-hover-display" src="{{url('/img/codeninja.png') }}"/>
                         </div>
                     </div>
                     <div class="col-md-9">
@@ -324,7 +324,7 @@
             <div class="col-md-3 wow zoomIn">
                 <a href="#" data-toggle="modal">
                     <div class="img-wrap">
-                        <img src="{{asset('/img/hrmslogo.jpg') }}">
+                        <img src="{{url('/img/hrmslogo.jpg') }}">
                         <div class="img-overlay-project"></div>
                     </div>
                 </a>
@@ -332,7 +332,7 @@
             <div class="col-md-3 wow zoomIn">
                 <a href="#Project1" data-toggle="modal">
                     <div class="img-wrap">
-                        <img src="{{asset('/img/lc.png') }}">
+                        <img src="{{url('/img/lc.png') }}">
                         <div class="img-overlay-project"></div>
                     </div>
                 </a>
@@ -340,7 +340,7 @@
             <div class="col-md-3 wow zoomIn">
                 <a href="#" data-toggle="modal">
                     <div class="img-wrap">
-                        <img src="{{asset('/img/fonebayad.jpg') }}">
+                        <img src="{{url('/img/fonebayad.jpg') }}">
                         <div class="img-overlay-project"></div>
                     </div>
                 </a>
@@ -348,7 +348,7 @@
             <div class="col-md-3 wow zoomIn">
                 <a href="#" data-toggle="modal">
                     <div class="img-wrap">
-                        <img src="{{asset('/img/no-image-available.png') }}">
+                        <img src="{{url('/img/no-image-available.png') }}">
                         <div class="img-overlay-project"></div>
                     </div>
                 </a>
@@ -376,7 +376,7 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="project-img-modal">
-                                    <img src="{{asset('/img/no-image-available.png') }}" class="project-img-content">
+                                    <img src="{{url('/img/no-image-available.png') }}" class="project-img-content">
                                 </div>
                             </div>
                             <div class="col-md-8">

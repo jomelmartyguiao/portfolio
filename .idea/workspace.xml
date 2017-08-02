@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="portfolio.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="portfolio.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/portfolio.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="308" column="60" selection-start="14546" selection-end="14546" vertical-scroll-proportion="-73.88461" vertical-offset="3315" max-vertical-offset="7616">
+            <state line="239" column="69" selection-start="11206" selection-end="11206" vertical-scroll-proportion="0.33333334" vertical-offset="3897" max-vertical-offset="7616">
               <folding />
             </state>
           </provider>
@@ -68,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/default/layouts/default.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="69" selection-start="850" selection-end="850" vertical-scroll-proportion="0.3414179" vertical-offset="21" max-vertical-offset="578">
+            <state line="21" column="54" selection-start="1216" selection-end="1216" vertical-scroll-proportion="-12.923077" vertical-offset="21" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -145,7 +145,6 @@
         <option value="$PROJECT_DIR$/public/css/stylesheet.css" />
         <option value="$PROJECT_DIR$/resources/views/add.blade.php" />
         <option value="$PROJECT_DIR$/public/js/home.js" />
-        <option value="$PROJECT_DIR$/resources/views/portfolio.blade.php" />
         <option value="$PROJECT_DIR$/public/css/portfolio.css" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/public/css/bootstrap.min.css" />
@@ -153,6 +152,7 @@
         <option value="$PROJECT_DIR$/public/js/wow.min.js" />
         <option value="$PROJECT_DIR$/public/js/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/public/themes/default/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/portfolio.blade.php" />
       </list>
     </option>
   </component>
@@ -235,7 +235,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,7 +257,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectxxx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -610,16 +648,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/portfolio.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/themes/default/layouts/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="308" column="60" selection-start="14546" selection-end="14546" vertical-scroll-proportion="-73.88461" vertical-offset="3315" max-vertical-offset="7616">
+        <state line="21" column="54" selection-start="1216" selection-end="1216" vertical-scroll-proportion="-12.923077" vertical-offset="21" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/default/layouts/default.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/portfolio.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="69" selection-start="850" selection-end="850" vertical-scroll-proportion="0.3414179" vertical-offset="21" max-vertical-offset="578">
+        <state line="239" column="69" selection-start="11206" selection-end="11206" vertical-scroll-proportion="0.33333334" vertical-offset="3897" max-vertical-offset="7616">
           <folding />
         </state>
       </provider>
