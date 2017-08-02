@@ -9,8 +9,8 @@
         <link type="text/css" rel="stylesheet" href="{{ asset('css/portfolio.css') }}"/>
         <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.css') }}"/>
         <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}"/>
-        <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css) }}">
+        <link rel="stylesheet" href="{{ asset('css/animate.css') }}"/>
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"/>
         <link rel="stylesheet" type="text/css" href="{{ asset('css/slick.css') }}"/>
         <link rel="stylesheet" type="text/css" href="{{ asset('css/slick-theme.css') }}"/>
         {!! Theme::asset()->styles() !!}
