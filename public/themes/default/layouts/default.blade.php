@@ -10,7 +10,7 @@
         <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.css') }}"/>
         <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}"/>
         <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css) }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/slick.css') }}"/>
         <link rel="stylesheet" type="text/css" href="{{ asset('css/slick-theme.css') }}"/>
         {!! Theme::asset()->styles() !!}
@@ -19,9 +19,9 @@
     <body>
             {!! Theme::content() !!}
             <script type="text/javascript" src="{{ asset('js/jquery-3.1.1.min.js') }}"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <script src="{{ asset('js/wow.js') }}"></script>
+            <script src="{{ asset('js/wow.min.js') }}"></script>
+            <script src="{{ asset('js/bootstrap.min.js') }}"></script>
             <script type="text/javascript" src="{{ asset('js/slick.js') }}"></script>
            <script type="text/javascript" src="{{ asset('js/home.js') }}"></script
     </body>
