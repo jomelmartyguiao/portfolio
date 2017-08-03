@@ -7,7 +7,7 @@
             <div class="col-md-12 text-center">
                 <div class="home-text typewriter">
                     <p>Hello;</p>
-                    <span>I'm Jomel Marty Guiao. Faggot!</span>
+                    <h4>I'm Jomel Marty Guiao. Faggot!</h4>
                 </div>
             </div>
         </div>
@@ -48,22 +48,25 @@
         <div class="row row-margin">
             <div class="col-md-5 wow fadeInLeft">
                 <div class="about-header">
-                    <h2>Introduction</h2>
+                    <h3>Introduction</h3>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum fringilla sem, non varius eros vehicula eu. Etiam libero nisl, bibendum quis efficitur at, gravida eget purus. Morbi ullamcorper euismod dui, vel fermentum lacus dignissim sed. Nunc sit amet libero vitae odio convallis aliquet. Phasellus odio dui, malesuada nec commodo at, interdum a ante. Praesent eu massa et quam porta efficitur sit amet id lorem. In feugiat diam sed consectetur finibus. Proin et dolor enim.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum fringilla sem, non varius eros vehicula eu.</p>
+                <div>
+                    <button type="button" class="btn-download btn">Download CV</button>
+                </div>
             </div>
             <div class="col-md-2 my-picture-container">
                 <img src="{{url('/img/businessman.png') }}" />
             </div>
             <div class="col-md-5 wow fadeInRight">
                 <div class="about-header">
-                    <h2>Information</h2>
+                    <h3>Information</h3>
                 </div>
-                    <ul>
-                        <li>Address:</li>
-                        <li>Email Address:</li>
-                        <li>Contact Number:</li>
-                        <li>Birthday</li>
+                    <ul class="information-container">
+                        <li class="fa fa-envelope-o"> Email Address: mrjomelguiao@gmail.com</li>
+                        <li class="fa fa-phone">  Contact Number: 09279480774</li>
+                        <li class="fa fa-birthday-cake"> Birthday: August 11,1995</li>
+                        <li class="fa fa-home ">  Address: #40 Tongco St. Marulas, Valenzuela</li>
                     </ul>
                 </div>
             </div>
@@ -84,13 +87,13 @@
         <div class="row">
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
-                    <img src="{{url('/img/html.svg') }}" />
-                    <p>HTML</p>
+                    <img src="{{url('/img/php.svg') }}" />
+                    <p>PHP</p>
                 </div>
                 <div class="progress-bar-container">
                     <div class="progress">
                         <div id="one" class="progress-bar progress-bar-striped active prg1 prg-color" role="progressbar"
-                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="50">
+                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="85">
                             0%
                         </div>
                     </div>
@@ -104,7 +107,7 @@
                 <div class="progress-bar-container">
                     <div class="progress">
                         <div id="one" class="progress-bar progress-bar-striped active prg2 prg-color" role="progressbar"
-                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="50">
+                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="86">
                             0%
                         </div>
                     </div>
@@ -112,13 +115,13 @@
             </div>
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
-                    <img src="{{url('/img/html.svg') }}" />
-                    <p>HTML</p>
+                    <img src="{{url('/img/css3.svg') }}" />
+                    <p>CSS</p>
                 </div>
                 <div class="progress-bar-container">
                     <div class="progress">
                         <div id="one" class="progress-bar progress-bar-striped active prg3 prg-color" role="progressbar"
-                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="50">
+                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="84">
                             0%
                         </div>
                     </div>
@@ -126,13 +129,13 @@
             </div>
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
-                    <img src="{{url('/img/html.svg') }}" />
-                    <p>HTML</p>
+                    <img src="{{url('/img/bootstrap.svg') }}" />
+                    <p>Bootstrap</p>
                 </div>
                 <div class="progress-bar-container">
                     <div class="progress">
                         <div id="one" class="progress-bar progress-bar-striped active prg4 prg-color" role="progressbar"
-                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="89">
+                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="75">
                             0%
                         </div>
                     </div>
@@ -142,13 +145,13 @@
         <div class="row row-margin">
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
-                    <img src="{{url('/img/html.svg') }}" />
-                    <p>HTML</p>
+                    <img src="{{url('/img/javascript.svg') }}" />
+                    <p>Javascript</p>
                 </div>
                 <div class="progress-bar-container">
                     <div class="progress">
                         <div id="one" class="progress-bar progress-bar-striped active prg5 prg-color" role="progressbar"
-                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="50">
+                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="64">
                             0%
                         </div>
                     </div>
@@ -156,13 +159,13 @@
             </div>
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
-                    <img src="{{url('/img/html.svg') }}" />
-                    <p>HTML</p>
+                    <img src="{{url('/img/jquery.svg') }}" />
+                    <p>Jquery</p>
                 </div>
                 <div class="progress-bar-container">
                     <div class="progress">
                         <div id="one" class="progress-bar progress-bar-striped active prg6 prg-color" role="progressbar"
-                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="50">
+                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="64">
                             0%
                         </div>
                     </div>
@@ -170,13 +173,13 @@
             </div>
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
-                    <img src="{{url('/img/html.svg') }}" />
-                    <p>HTML</p>
+                    <img src="{{url('/img/laravel.svg') }}" />
+                    <p>Laravel</p>
                 </div>
                 <div class="progress-bar-container">
                     <div class="progress">
                         <div id="one" class="progress-bar progress-bar-striped active prg7 prg-color" role="progressbar"
-                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="50">
+                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="65">
                             0%
                         </div>
                     </div>
@@ -184,13 +187,13 @@
             </div>
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
-                    <img src="{{url('/img/html.svg') }}" />
-                    <p>HTML</p>
+                    <img src="{{url('/img/photoshop.svg') }}" />
+                    <p>Photoshop</p>
                 </div>
                 <div class="progress-bar-container">
                     <div class="progress">
                         <div id="one" class="progress-bar progress-bar-striped active prg8 prg-color" role="progressbar"
-                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="50">
+                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-per="89">
                             0%
                         </div>
                     </div>
@@ -321,8 +324,8 @@
             </div>
         </div>
         <div class="row row-margin">
-            <div class="col-md-3 wow zoomIn">
-                <a href="#" data-toggle="modal">
+            <div class="col-md-3 forSlick wow zoomIn">
+                <a href="#hrms" data-toggle="modal">
                     <div class="img-wrap">
                         <img src="{{url('/img/hrmslogo.jpg') }}">
                         <div class="img-overlay-project"></div>
@@ -330,15 +333,15 @@
                 </a>
             </div>
             <div class="col-md-3 wow zoomIn">
-                <a href="#Project1" data-toggle="modal">
+                <a href="#loyal-currency" data-toggle="modal">
                     <div class="img-wrap">
                         <img src="{{url('/img/lc.png') }}">
                         <div class="img-overlay-project"></div>
                     </div>
                 </a>
             </div>
-            <div class="col-md-3 wow zoomIn">
-                <a href="#" data-toggle="modal">
+            <div class="col-md-3 forSlick wow zoomIn">
+                <a href="#fonebayad" data-toggle="modal">
                     <div class="img-wrap">
                         <img src="{{url('/img/fonebayad.jpg') }}">
                         <div class="img-overlay-project"></div>
@@ -346,7 +349,7 @@
                 </a>
             </div>
             <div class="col-md-3 wow zoomIn">
-                <a href="#" data-toggle="modal">
+                <a href="#" data-toggle="modal" class="forSlick">
                     <div class="img-wrap">
                         <img src="{{url('/img/no-image-available.png') }}">
                         <div class="img-overlay-project"></div>
@@ -355,8 +358,56 @@
             </div>
         </div>
     </div>
-<!--Project1 modal-->
-    <div id="Project1" class="modal fade" role="dialog">
+<!--HRMS modal-->
+    <div id="hrms" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="modal-title">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3>Project Details</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="project-img-modal">
+                                    <div><img src="{{url('/img/hrms1.png') }}"></div>
+                                    <div><img src="{{url('/img/hrms2.png') }}"></div>
+                                    <div><img src="{{url('/img/hrms3.png') }}"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <h4>Project -</h4>
+                                <p>Human Resource Management System</p>
+                                <h4>Description -</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum fringilla sem, non varius eros vehicula eu. Etiam libero nisl, bibendum quis efficitur at, gravida eget purus. Morbi ullamcorper euismod dui, vel fermentum lacus dignissim sed. consectetur adipiscing elit. Cras condimentum fringilla sem, non varius eros vehicula eu. Etiam libero nisl, bibendum quis efficitur at, gravida eget purus. Morbi ullamcorper euismod dui, vel fermentum lacus dignissim sed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="container">
+                        <div class="row row-margin">
+                            <div class="col-md-12">
+                                <button type="button" class="btn btn-project-custom" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--end-->
+    <!--Loyal Currency modal-->
+    <div id="loyal-currency" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -400,7 +451,53 @@
             </div>
         </div>
     </div>
-<!--end-->
+    <!--end-->
+    <!--Fonebayad modal-->
+    <div id="fonebayad" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="modal-title">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3>Project Details</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="project-img-modal">
+                                    <img src="{{url('/img/no-image-available.png') }}" class="project-img-content">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <h4>Project -</h4>
+                                <p>Fonebayad</p>
+                                <h4>Description -</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum fringilla sem, non varius eros vehicula eu. Etiam libero nisl, bibendum quis efficitur at, gravida eget purus. Morbi ullamcorper euismod dui, vel fermentum lacus dignissim sed. consectetur adipiscing elit. Cras condimentum fringilla sem, non varius eros vehicula eu. Etiam libero nisl, bibendum quis efficitur at, gravida eget purus. Morbi ullamcorper euismod dui, vel fermentum lacus dignissim sed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="container">
+                        <div class="row row-margin">
+                            <div class="col-md-12">
+                                <button type="button" class="btn btn-project-custom" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end-->
 </section>
 <!--FOOTER-->
 <section id="footer">

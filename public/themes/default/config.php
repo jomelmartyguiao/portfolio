@@ -57,32 +57,25 @@ return array(
         // breadcrumb template.
         'beforeRenderTheme' => function($theme)
         {
-            // You may use this event to set up your assets.
-            $theme->asset()->usePath()->add('font-awesome-css', 'css/font-awesome.css');
-            $theme->asset()->usePath()->add('font-awesome.min-css', 'css/font-awesome.min.css');
+
             $theme->asset()->usePath()->add('bootstrap.min-css', 'css/bootstrap.min.css');
+//            $theme->asset()->usePath()->add('font-awesome-css', 'css/font-awesome.css');
+            $theme->asset()->usePath()->add('font-awesome.min-css', 'css/font-awesome.min.css');
             $theme->asset()->usePath()->add('animate-css', 'css/animate.css');
-            $theme->asset()->usePath()->add('app-css', 'css/app.css');
+//            $theme->asset()->usePath()->add('app-css', 'css/app.css');
             $theme->asset()->usePath()->add('portfolio-css', 'css/portfolio.css');
             $theme->asset()->usePath()->add('slick-css', 'css/slick.css');
             $theme->asset()->usePath()->add('slick-theme-css', 'css/slick-theme.css');
             $theme->asset()->usePath()->add('stylesheet-css', 'css/stylesheet.css');
-            // $theme->asset()->usePath()->add('core', 'core.js');
-            $theme->asset()->usePath()->add('app-js', 'js/app.js');
+
+//            $theme->asset()->usePath()->add('app-js', 'js/app.js');
+            $theme->asset()->usePath()->add('jquery-3.1.1.min-js', 'js/jquery-3.1.1.min.js');
             $theme->asset()->usePath()->add('bootstrap.min-js', 'js/bootstrap.min.js');
             $theme->asset()->usePath()->add('home-js', 'js/home.js');
-            $theme->asset()->usePath()->add('jquery-3.1.1.min.js', 'js/jquery-3.1.1.min.js');
             $theme->asset()->usePath()->add('slick-js', 'js/slick.js');
             $theme->asset()->usePath()->add('wow-js', 'js/wow.js');
             $theme->asset()->usePath()->add('wow.min-js', 'js/wow.min.js');
-            // $theme->asset()->add('jquery', 'vendor/jquery/jquery.min.js');
-            // $theme->asset()->add('jquery-ui', 'vendor/jqueryui/jquery-ui.min.js', array('jquery'));
 
-            // Partial composer.
-            // $theme->partialComposer('header', function($view)
-            // {
-            //     $view->with('auth', Auth::user());
-            // });
         },
 
         // Listen on event before render a layout,
