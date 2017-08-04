@@ -24,12 +24,12 @@
                     <span class = "icon-bar"></span>
                     <span class = "icon-bar"></span>
                 </button>
-                <a class = "navbar-brand" href = "#">FAGGOT!</a>
+                <a class ="navbar-brand" href = "#">FAGGOT!</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
             <ul id="nav-id" class="nav navbar-nav navbar-right">
                 <li class="active"><a data-id="#about" href = "javascript:void(0)">ABOUT</a></li>
-                <li><a data-id="#skills" href="javascript:void(0)">SKILLS</a></li>
+                <li class="show-skills"><a data-id="#skills" href="javascript:void(0)">SKILLS</a></li>
                 <li><a data-id="#experience" href = "javascript:void(0)">EXPERIENCE</a></li>
                 <li><a data-id="#projects" href = "javascript:void(0)">PROJECTS</a></li>
             </ul>
@@ -80,11 +80,18 @@
         <div class="img-overlay">
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <h1 class="section-title">Skills.</h1>
+            <div class="col-md-11">
+                <h1 class="section-title" >Skills.</h1>
+            </div>
+            <div class="col-md-1 skills-bulb" data-toggle="tooltip" title="Click Me!">
+                <div class="bulb-container show-skills">
+                    <a href="#show-skills">
+                        <p class="fa fa-lightbulb-o"></p>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row row-margin">
             <div class="col-md-3 wow flipInX">
                 <div class="skills-container">
                     <img src="{{url('/img/php.svg') }}" />
@@ -379,8 +386,8 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="project-img-modal">
-                                    <div><img src="{{url('/img/hrms1.png') }}"></div>
                                     <div><img src="{{url('/img/hrms2.png') }}"></div>
+                                    <div><img src="{{url('/img/hrms1.png') }}"></div>
                                     <div><img src="{{url('/img/hrms3.png') }}"></div>
                                 </div>
                             </div>
@@ -427,7 +434,9 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="project-img-modal">
-                                    <img src="{{url('/img/no-image-available.png') }}" class="project-img-content">
+                                    <div><img src="{{url('/img/lc2.png') }}"></div>
+                                    <div><img src="{{url('/img/lc1.png') }}"></div>
+                                    <div><img src="{{url('/img/lc3.png') }}"></div>
                                 </div>
                             </div>
                             <div class="col-md-8">
@@ -473,7 +482,9 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="project-img-modal">
-                                    <img src="{{url('/img/no-image-available.png') }}" class="project-img-content">
+                                    <div><img src="{{url('/img/fonebayad2.png') }}"></div>
+                                    <div><img src="{{url('/img/fonebayad1.png') }}"></div>
+                                    <div><img src="{{url('/img/fonebayad3.png') }}"></div>
                                 </div>
                             </div>
                             <div class="col-md-8">
@@ -538,3 +549,6 @@
         </div>
     </div>
 </section>
+<div class="scroll-top">
+    <a class="page-scroll" href="#page-top"><span class="fa fa-chevron-up"></span></a>
+</div>

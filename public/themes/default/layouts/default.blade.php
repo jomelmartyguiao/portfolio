@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
     <head>
-        <title>{!! Theme::get('title') !!}JOMEL</title>
+        <title>Jomel Marty G. Guiao</title>
         <meta charset="utf-8">
         <meta name="keywords" content="{!! Theme::get('keywords') !!}">
         <meta name="description" content="{!! Theme::get('description') !!}">
