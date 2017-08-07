@@ -23,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="portfolio.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="portfolio.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/portfolio.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="387" column="69" selection-start="17736" selection-end="17736" vertical-scroll-proportion="-8.192307" vertical-offset="6366" max-vertical-offset="9503">
+            <state line="3" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.098265894" vertical-offset="0" max-vertical-offset="9588">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="portfolio.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/default/assets/css/portfolio.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="412" column="29" selection-start="8425" selection-end="8425" vertical-scroll-proportion="0.33333334" vertical-offset="6818" max-vertical-offset="7922">
+            <state line="5" column="1" selection-start="167" selection-end="167" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="7922">
               <folding>
-                <marker date="1502074046138" expanded="true" signature="6888:6915" placeholder="..." />
+                <marker date="1502092674349" expanded="true" signature="6880:6907" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -46,16 +46,16 @@
       <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/default/assets/js/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="26" selection-start="2964" selection-end="2964" vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="1785">
+            <state line="98" column="0" selection-start="3057" selection-end="3057" vertical-scroll-proportion="-16.88" vertical-offset="1244" max-vertical-offset="1802">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/themes/default/layouts/default.blade.php">
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/themes/default/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="38" selection-start="1484" selection-end="1484" vertical-scroll-proportion="-14.884615" vertical-offset="38" max-vertical-offset="595">
+            <state line="68" column="29" selection-start="2735" selection-end="2791" vertical-scroll-proportion="-9.153846" vertical-offset="918" max-vertical-offset="1700">
               <folding />
             </state>
           </provider>
@@ -94,13 +94,13 @@
         <option value="$PROJECT_DIR$/public/js/wow.min.js" />
         <option value="$PROJECT_DIR$/public/js/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/public/themes/default/config.php" />
         <option value="$PROJECT_DIR$/resources/views/add.blade.php" />
         <option value="$PROJECT_DIR$/public/themes/default/assets/css/stylesheet.css" />
         <option value="$PROJECT_DIR$/public/themes/default/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/public/themes/default/config.php" />
         <option value="$PROJECT_DIR$/public/themes/default/assets/js/home.js" />
-        <option value="$PROJECT_DIR$/resources/views/portfolio.blade.php" />
         <option value="$PROJECT_DIR$/public/themes/default/assets/css/portfolio.css" />
+        <option value="$PROJECT_DIR$/resources/views/portfolio.blade.php" />
       </list>
     </option>
   </component>
@@ -269,6 +269,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectxxx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -380,7 +410,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="401" column="16" selection-start="8463" selection-end="8463" vertical-scroll-proportion="0.0" vertical-offset="6512" max-vertical-offset="7344">
           <folding>
-            <marker date="1502074046138" expanded="true" signature="6888:6915" placeholder="..." />
+            <marker date="1502092674349" expanded="true" signature="6880:6907" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -415,7 +445,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="12" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="6188">
           <folding>
-            <marker date="1502074046138" expanded="true" signature="6888:6915" placeholder="..." />
+            <marker date="1502092674349" expanded="true" signature="6880:6907" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -611,11 +641,6 @@
         <state line="15" column="41" selection-start="578" selection-end="578" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/default/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="90" selection-start="2209" selection-end="2209" vertical-scroll-proportion="-3.764706" vertical-offset="845" max-vertical-offset="1700" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/default/assets/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="365" column="0" selection-start="6488" selection-end="6488" vertical-scroll-proportion="0.7562724" vertical-offset="5783" max-vertical-offset="6341">
@@ -628,38 +653,40 @@
         <state line="196" column="27" selection-start="8925" selection-end="8928" vertical-scroll-proportion="1.4913294" vertical-offset="2558" max-vertical-offset="3587" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/img/code.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/default/layouts/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="38" selection-start="1484" selection-end="1484" vertical-scroll-proportion="-14.884615" vertical-offset="38" max-vertical-offset="595">
+        <state line="25" column="38" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.6947935" vertical-offset="38" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/default/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="29" selection-start="2735" selection-end="2791" vertical-scroll-proportion="-9.153846" vertical-offset="918" max-vertical-offset="1700">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/default/assets/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="26" selection-start="2964" selection-end="2964" vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/portfolio.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="387" column="69" selection-start="17736" selection-end="17736" vertical-scroll-proportion="-8.192307" vertical-offset="6366" max-vertical-offset="9503">
+        <state line="98" column="0" selection-start="3057" selection-end="3057" vertical-scroll-proportion="-16.88" vertical-offset="1244" max-vertical-offset="1802">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/default/assets/css/portfolio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="412" column="29" selection-start="8425" selection-end="8425" vertical-scroll-proportion="0.33333334" vertical-offset="6818" max-vertical-offset="7922">
+        <state line="5" column="1" selection-start="167" selection-end="167" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="7922">
           <folding>
-            <marker date="1502074046138" expanded="true" signature="6888:6915" placeholder="..." />
+            <marker date="1502092674349" expanded="true" signature="6880:6907" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/portfolio.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.098265894" vertical-offset="0" max-vertical-offset="9588">
+          <folding />
         </state>
       </provider>
     </entry>

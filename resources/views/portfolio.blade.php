@@ -1,3 +1,7 @@
+{{ Theme::asset()->usePath()->add('portfolio-css', 'css/portfolio.css') }}
+{{ Theme::asset()->usePath()->add('home-js', 'js/home.js') }}
+{{ Theme::asset()->usePath()->add('stylesheet-css', 'css/stylesheet.css') }}
+
 <!--HOME-->
 <section id="home">
     <div class="container">
@@ -7,7 +11,7 @@
             <div class="col-md-12 text-center">
                 <div class="home-text typewriter">
                     <p>Hello;</p>
-                    <h4>I'm Jomel Marty Guiao. Faggot!</h4>
+                    <h4>I'm Jomel Marty Guiao.</h4>
                 </div>
             </div>
         </div>
@@ -24,7 +28,7 @@
                     <span class = "icon-bar"></span>
                     <span class = "icon-bar"></span>
                 </button>
-                <a class ="navbar-brand" href = "#">FAGGOT!</a>
+                <a class ="navbar-brand" href = "#">JMGG</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
             <ul id="nav-id" class="nav navbar-nav navbar-right">
@@ -331,7 +335,7 @@
             </div>
         </div>
         <div class="row row-margin">
-            <div class="col-md-3 forSlick wow zoomIn">
+            <div class="col-md-3 wow zoomIn">
                 <a href="#hrms" data-toggle="modal">
                     <div class="img-wrap">
                         <img src="{{url('/img/hrmslogo.jpg') }}">
@@ -347,7 +351,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-3 forSlick wow zoomIn">
+            <div class="col-md-3 wow zoomIn">
                 <a href="#fonebayad" data-toggle="modal">
                     <div class="img-wrap">
                         <img src="{{url('/img/fonebayad.jpg') }}">
@@ -356,7 +360,7 @@
                 </a>
             </div>
             <div class="col-md-3 wow zoomIn">
-                <a href="#" data-toggle="modal" class="forSlick">
+                <a href="#" data-toggle="modal">
                     <div class="img-wrap">
                         <img src="{{url('/img/no-image-available.png') }}">
                         <div class="img-overlay-project"></div>
@@ -549,6 +553,7 @@
         </div>
     </div>
 </section>
+<!--SCROLL TOP-->
 <div class="scroll-top">
     <a class="page-scroll" href="#page-top"><span class="fa fa-chevron-up"  data-toggle="tooltip" title="Back To Top"></span></a>
 </div>

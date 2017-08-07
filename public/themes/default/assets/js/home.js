@@ -81,10 +81,10 @@ $(document).ready(function(){
 
  //scroll active nav bar
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 923) {
+        if ($(this).scrollTop() >= 923) {
             $(".navbar ul li").removeClass();
             $("#about-li").addClass("active");
-        } if ($(this).scrollTop() > 1300) {
+        } if ($(this).scrollTop() > 1200) {
             $(".navbar ul li").removeClass();
             $("#skills-li").addClass("active");
         } if ($(this).scrollTop() > 1600) {
@@ -95,5 +95,6 @@ $(document).ready(function(){
             $("#projects-li").addClass("active");
         }
     });
-
 });
+
+

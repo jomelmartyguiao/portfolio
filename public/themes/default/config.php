@@ -63,15 +63,15 @@ return array(
             $theme->asset()->usePath()->add('font-awesome.min-css', 'css/font-awesome.min.css');
             $theme->asset()->usePath()->add('animate-css', 'css/animate.css');
 //            $theme->asset()->usePath()->add('app-css', 'css/app.css');
-            $theme->asset()->usePath()->add('portfolio-css', 'css/portfolio.css');
+//            $theme->asset()->usePath()->add('portfolio-css', 'css/portfolio.css');
             $theme->asset()->usePath()->add('slick-css', 'css/slick.css');
             $theme->asset()->usePath()->add('slick-theme-css', 'css/slick-theme.css');
-            $theme->asset()->usePath()->add('stylesheet-css', 'css/stylesheet.css');
+//            $theme->asset()->usePath()->add('stylesheet-css', 'css/stylesheet.css');
 
 //            $theme->asset()->usePath()->add('app-js', 'js/app.js');
             $theme->asset()->usePath()->add('jquery-3.1.1.min-js', 'js/jquery-3.1.1.min.js');
             $theme->asset()->usePath()->add('bootstrap.min-js', 'js/bootstrap.min.js');
-            $theme->asset()->usePath()->add('home-js', 'js/home.js');
+//            $theme->asset()->usePath()->add('home-js', 'js/home.js');
             $theme->asset()->usePath()->add('slick-js', 'js/slick.js');
             $theme->asset()->usePath()->add('wow-js', 'js/wow.js');
             $theme->asset()->usePath()->add('wow.min-js', 'js/wow.min.js');
