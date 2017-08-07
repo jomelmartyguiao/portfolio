@@ -28,10 +28,10 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
             <ul id="nav-id" class="nav navbar-nav navbar-right">
-                <li class="active"><a data-id="#about" href = "javascript:void(0)">ABOUT</a></li>
-                <li class="show-skills"><a data-id="#skills" href="javascript:void(0)">SKILLS</a></li>
-                <li><a data-id="#experience" href = "javascript:void(0)">EXPERIENCE</a></li>
-                <li><a data-id="#projects" href = "javascript:void(0)">PROJECTS</a></li>
+                <li id="about-li" class="active"><a data-id="#about" href = "javascript:void(0)">ABOUT</a></li>
+                <li id="skills-li" class="show-skills"><a data-id="#skills" href="javascript:void(0)">SKILLS</a></li>
+                <li id="experience-li"><a data-id="#experience" href = "javascript:void(0)">EXPERIENCE</a></li>
+                <li id="projects-li"><a data-id="#projects" href = "javascript:void(0)">PROJECTS</a></li>
             </ul>
             </div>
         </div>
@@ -385,10 +385,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="project-img-modal">
-                                    <div><img src="{{url('/img/hrms2.png') }}"></div>
-                                    <div><img src="{{url('/img/hrms1.png') }}"></div>
+                                <div class="project-img-modal bg-img1">
                                     <div><img src="{{url('/img/hrms3.png') }}"></div>
+                                    <div><img src="{{url('/img/hrms1.png') }}"></div>
+                                    <div><img src="{{url('/img/hrms2.png') }}"></div>
                                 </div>
                             </div>
                             <div class="col-md-8">
@@ -433,10 +433,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="project-img-modal">
-                                    <div><img src="{{url('/img/lc2.png') }}"></div>
-                                    <div><img src="{{url('/img/lc1.png') }}"></div>
+                                <div class="project-img-modal bg-img2">
                                     <div><img src="{{url('/img/lc3.png') }}"></div>
+                                    <div><img src="{{url('/img/lc1.png') }}"></div>
+                                    <div><img src="{{url('/img/lc2.png') }}"></div>
                                 </div>
                             </div>
                             <div class="col-md-8">
@@ -481,10 +481,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="project-img-modal">
-                                    <div><img src="{{url('/img/fonebayad2.png') }}"></div>
-                                    <div><img src="{{url('/img/fonebayad1.png') }}"></div>
+                                <div class="project-img-modal bg-img3">
                                     <div><img src="{{url('/img/fonebayad3.png') }}"></div>
+                                    <div><img src="{{url('/img/fonebayad1.png') }}"></div>
+                                    <div><img src="{{url('/img/fonebayad2.png') }}"></div>
                                 </div>
                             </div>
                             <div class="col-md-8">
@@ -550,5 +550,5 @@
     </div>
 </section>
 <div class="scroll-top">
-    <a class="page-scroll" href="#page-top"><span class="fa fa-chevron-up"></span></a>
+    <a class="page-scroll" href="#page-top"><span class="fa fa-chevron-up"  data-toggle="tooltip" title="Back To Top"></span></a>
 </div>

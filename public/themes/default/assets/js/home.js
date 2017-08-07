@@ -79,4 +79,21 @@ $(document).ready(function(){
         return false;
     });
 
+ //scroll active nav bar
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 923) {
+            $(".navbar ul li").removeClass();
+            $("#about-li").addClass("active");
+        } if ($(this).scrollTop() > 1300) {
+            $(".navbar ul li").removeClass();
+            $("#skills-li").addClass("active");
+        } if ($(this).scrollTop() > 1600) {
+            $(".navbar ul li").removeClass();
+            $("#experience-li").addClass("active");
+        } if ($(this).scrollTop() > 2800) {
+            $(".navbar ul li").removeClass();
+            $("#projects-li").addClass("active");
+        }
+    });
+
 });
