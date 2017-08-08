@@ -18,6 +18,10 @@
         {!! Theme::asset()->scripts() !!}
     </head>
     <body>
+<!--    LOADER-->
+    <div class="loader">
+        <img src="{{url('/img/loader.gif') }}"/>
+    </div>
             {!! Theme::content() !!}
 <!--            <script type="text/javascript" src="{{ url('js/jquery-3.1.1.min.js') }}"></script>-->
 <!--            <script src="{{ url('js/wow.js') }}"></script>-->

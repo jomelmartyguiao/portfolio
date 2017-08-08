@@ -256,7 +256,7 @@
                     </div>
                     <div class="col-md-9">
                         <div class="border-text wow fadeIn">
-                            <span class="border-style">2015</span>
+                            <span class="border-style">2016</span>
                         </div>
                         <div class="wow fadeIn">
                             <h1 class="experience-title">
@@ -282,7 +282,7 @@
         <div class="row">
             <div class="col-md-4 wow fadeIn">
                 <div class="border-text wow fadeIn">
-                    <span class="border-style">2015</span>
+                    <span class="border-style">2008</span>
                 </div>
                 <h3  class="fa fa-graduation-cap educ-header">  Elementary</h3>
                 <h4>Sta. Rita Catholic School</h4>
@@ -290,7 +290,7 @@
             </div>
             <div class="col-md-4 wow fadeIn">
                 <div class="border-text">
-                    <span class="border-style">2015</span>
+                    <span class="border-style">2012</span>
                 </div>
                 <h3  class="fa fa-graduation-cap educ-header">  High School</h3>
                 <h4>St. Catherine's Academy</h4>
@@ -298,7 +298,7 @@
             </div>
             <div class="col-md-4 wow fadeIn">
                 <div class="border-text">
-                    <span class="border-style">2015</span>
+                    <span class="border-style">2016</span>
                 </div>
                 <h3  class="fa fa-graduation-cap educ-header">  College</h3>
                 <h4>Polytechnic University of the Philippines</h4>
@@ -400,6 +400,7 @@
                                 <p>Human Resource Management System</p>
                                 <h4>Description -</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum fringilla sem, non varius eros vehicula eu. Etiam libero nisl, bibendum quis efficitur at, gravida eget purus. Morbi ullamcorper euismod dui, vel fermentum lacus dignissim sed. consectetur adipiscing elit. Cras condimentum fringilla sem, non varius eros vehicula eu. Etiam libero nisl, bibendum quis efficitur at, gravida eget purus. Morbi ullamcorper euismod dui, vel fermentum lacus dignissim sed.</p>
+                                <a href="http://hrms.republisys.com" target="_blank">http://hrms.republisys.com</a>
                             </div>
                         </div>
                     </div>
@@ -448,6 +449,7 @@
                                 <p>Loyal Currency</p>
                                 <h4>Description -</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum fringilla sem, non varius eros vehicula eu. Etiam libero nisl, bibendum quis efficitur at, gravida eget purus. Morbi ullamcorper euismod dui, vel fermentum lacus dignissim sed. consectetur adipiscing elit. Cras condimentum fringilla sem, non varius eros vehicula eu. Etiam libero nisl, bibendum quis efficitur at, gravida eget purus. Morbi ullamcorper euismod dui, vel fermentum lacus dignissim sed.</p>
+                                <a href="http://hrms.loyalcurrency.com/" target="_blank">http://hrms.loyalcurrency.com</a>
                             </div>
                         </div>
                     </div>
@@ -496,6 +498,7 @@
                                 <p>Fonebayad</p>
                                 <h4>Description -</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum fringilla sem, non varius eros vehicula eu. Etiam libero nisl, bibendum quis efficitur at, gravida eget purus. Morbi ullamcorper euismod dui, vel fermentum lacus dignissim sed. consectetur adipiscing elit. Cras condimentum fringilla sem, non varius eros vehicula eu. Etiam libero nisl, bibendum quis efficitur at, gravida eget purus. Morbi ullamcorper euismod dui, vel fermentum lacus dignissim sed.</p>
+                                <a href="https://dev.www2.fonebayad.com" target="_blank">https://dev.www2.fonebayad.com</a>
                             </div>
                         </div>
                     </div>

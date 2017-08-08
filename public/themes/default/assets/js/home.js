@@ -1,5 +1,7 @@
 $(document).ready(function(){
-    var counter = 0;
+//loader
+//    .css('display', 'none');
+    $('.loader').fadeOut();
 //tooltip
     $('[data-toggle="tooltip"]').tooltip();
 //wowjs
@@ -11,8 +13,7 @@ $(document).ready(function(){
         $(".prg-color").addClass("progress-bar-black");
     });
 //progress bar animation
-
-
+    var counter = 0;
     $('.progress-bar-container').hide()
     $(".show-skills").click(function(){
         var test = $(this).find("a").attr("data-id");
@@ -96,5 +97,7 @@ $(document).ready(function(){
         }
     });
 });
+
+
 
 

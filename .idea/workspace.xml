@@ -26,7 +26,7 @@
       <file leaf-file-name="portfolio.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/portfolio.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.098265894" vertical-offset="0" max-vertical-offset="9588">
+            <state line="451" column="71" selection-start="21789" selection-end="21789" vertical-scroll-proportion="-1.0308285" vertical-offset="8202" max-vertical-offset="9639">
               <folding />
             </state>
           </provider>
@@ -35,9 +35,9 @@
       <file leaf-file-name="portfolio.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/default/assets/css/portfolio.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="1" selection-start="167" selection-end="167" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="7922">
+            <state line="471" column="18" selection-start="9472" selection-end="9472" vertical-scroll-proportion="0.0" vertical-offset="7475" max-vertical-offset="8143">
               <folding>
-                <marker date="1502092674349" expanded="true" signature="6880:6907" placeholder="..." />
+                <marker date="1502162213105" expanded="true" signature="6881:6908" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -46,16 +46,16 @@
       <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/default/assets/js/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="0" selection-start="3057" selection-end="3057" vertical-scroll-proportion="-16.88" vertical-offset="1244" max-vertical-offset="1802">
+            <state line="3" column="26" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1853">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/themes/default/config.php">
+      <file leaf-file-name="default.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/themes/default/layouts/default.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="29" selection-start="2735" selection-end="2791" vertical-scroll-proportion="-9.153846" vertical-offset="918" max-vertical-offset="1700">
+            <state line="16" column="40" selection-start="1029" selection-end="1029" vertical-scroll-proportion="-6.3846154" vertical-offset="106" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -96,10 +96,10 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/add.blade.php" />
         <option value="$PROJECT_DIR$/public/themes/default/assets/css/stylesheet.css" />
-        <option value="$PROJECT_DIR$/public/themes/default/layouts/default.blade.php" />
         <option value="$PROJECT_DIR$/public/themes/default/config.php" />
-        <option value="$PROJECT_DIR$/public/themes/default/assets/js/home.js" />
+        <option value="$PROJECT_DIR$/public/themes/default/layouts/default.blade.php" />
         <option value="$PROJECT_DIR$/public/themes/default/assets/css/portfolio.css" />
+        <option value="$PROJECT_DIR$/public/themes/default/assets/js/home.js" />
         <option value="$PROJECT_DIR$/resources/views/portfolio.blade.php" />
       </list>
     </option>
@@ -137,6 +137,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -323,7 +324,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,11 +382,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -406,11 +406,18 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/themes/default/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="29" selection-start="2735" selection-end="2791" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/default/assets/css/portfolio.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="401" column="16" selection-start="8463" selection-end="8463" vertical-scroll-proportion="0.0" vertical-offset="6512" max-vertical-offset="7344">
           <folding>
-            <marker date="1502092674349" expanded="true" signature="6880:6907" placeholder="..." />
+            <marker date="1502162213105" expanded="true" signature="6881:6908" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -445,7 +452,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="12" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="6188">
           <folding>
-            <marker date="1502092674349" expanded="true" signature="6880:6907" placeholder="..." />
+            <marker date="1502162213105" expanded="true" signature="6881:6908" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -643,9 +650,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/default/assets/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="365" column="0" selection-start="6488" selection-end="6488" vertical-scroll-proportion="0.7562724" vertical-offset="5783" max-vertical-offset="6341">
-          <folding />
-        </state>
+        <state line="365" column="0" selection-start="6488" selection-end="6488" vertical-scroll-proportion="0.7562724" vertical-offset="5783" max-vertical-offset="6341" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/add.blade.php">
@@ -653,39 +658,39 @@
         <state line="196" column="27" selection-start="8925" selection-end="8928" vertical-scroll-proportion="1.4913294" vertical-offset="2558" max-vertical-offset="3587" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/default/layouts/default.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="38" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.6947935" vertical-offset="38" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/default/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="29" selection-start="2735" selection-end="2791" vertical-scroll-proportion="-9.153846" vertical-offset="918" max-vertical-offset="1700">
+        <state line="68" column="29" selection-start="2735" selection-end="2791" vertical-scroll-proportion="2.075404" vertical-offset="0" max-vertical-offset="1700">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/default/assets/js/home.js">
+    <entry file="file://$PROJECT_DIR$/public/themes/default/layouts/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="0" selection-start="3057" selection-end="3057" vertical-scroll-proportion="-16.88" vertical-offset="1244" max-vertical-offset="1802">
+        <state line="16" column="40" selection-start="1029" selection-end="1029" vertical-scroll-proportion="-6.3846154" vertical-offset="106" max-vertical-offset="663">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/default/assets/css/portfolio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="167" selection-end="167" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="7922">
+        <state line="471" column="18" selection-start="9472" selection-end="9472" vertical-scroll-proportion="0.0" vertical-offset="7475" max-vertical-offset="8143">
           <folding>
-            <marker date="1502092674349" expanded="true" signature="6880:6907" placeholder="..." />
+            <marker date="1502162213105" expanded="true" signature="6881:6908" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/default/assets/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="26" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1853">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/portfolio.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.098265894" vertical-offset="0" max-vertical-offset="9588">
+        <state line="451" column="71" selection-start="21789" selection-end="21789" vertical-scroll-proportion="-1.0308285" vertical-offset="8202" max-vertical-offset="9639">
           <folding />
         </state>
       </provider>
