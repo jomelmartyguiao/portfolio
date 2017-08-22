@@ -1,0 +1,118 @@
+*{
+    letter-spacing: 1px;
+}
+/*NAVIGATION BAR*/
+.navbar {
+    margin-bottom: 0;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 0;
+}
+.navbar-default .nav li a {
+    font-size: 16px;
+    font-weight: 800;
+    transition: all 0.2s ease-in;
+}
+.navbar-default .nav li a#white-a {
+    color: #e3e3e3;
+}
+.navbar-default .nav li a#blue-a {
+    color: #3da4a3;
+}
+.navbar-default .nav li a#orange-a {
+    color: #ec703c;
+}
+.navbar-default .nav li a#yellow-a {
+    color: #f1b636;
+}
+.navbar-default .nav li a#white-a:hover {
+    background-color: #636b6f;
+}
+.navbar-default .nav li a#blue-a:hover {
+    background-color: #636b6f;
+}
+.navbar-default .nav li a#orange-a:hover {
+    background-color: #636b6f;
+}
+.navbar-default .nav li a#yellow-a:hover {
+    background-color: #636b6f;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: #636b6f;
+}
+/*GLOBAL CSS*/
+.person-img-height {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.person-img-height img {
+    margin: 0 auto;
+    height: 100%;
+}
+/*1ST PAGE*/
+.content-height {
+    height: 100vh;
+    display: table;
+}
+.content-container {
+    display: table-cell;
+    vertical-align: middle;
+}
+.page1-header h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.content-container p {
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+/*2ND PAGE*/
+#blue {
+    background-color: #3da4a3;
+}
+.label-height {
+    height: 60vh;
+    display: table;
+}
+.label-container {
+    display: table-cell;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+.header-height {
+    height: 40vh;
+    display: table;
+}
+.header {
+    display: table-cell;
+    vertical-align: bottom;
+}
+.header h1 {
+    color: #FFFFFF;
+    font-size: 41px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.header:before {
+    content: "";
+    width: 0;
+    height: 41%;
+    position: absolute;
+    border: 1px solid #FFFFFF;
+    top: 0;
+    left: 0;
+}
+.label-container p {
+    margin-bottom: 1px;
+    font-size: 15px;
+}
+#orange {
+    background-color: #ec703c;
+}
+#yellow {
+    background-color: #f1b636;
+}

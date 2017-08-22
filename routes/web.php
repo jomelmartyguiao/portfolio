@@ -12,5 +12,6 @@
 */
 
 Route::get('/getIndex'                        ,   'HomeController@getIndex');
+Route::get('/'                        ,   'HomeController@home');
 Route::get('/add'                        ,   'HomeController@add');
-Route::get('/'                        ,   'HomeController@portfolio');
+Route::get('/portfolio'                        ,   'HomeController@portfolio');

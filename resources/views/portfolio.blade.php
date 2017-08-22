@@ -1,7 +1,11 @@
 {{ Theme::asset()->usePath()->add('portfolio-css', 'css/portfolio.css') }}
-{{ Theme::asset()->usePath()->add('home-js', 'js/home.js') }}
+{{ Theme::asset()->usePath()->add('portfolio-js', 'js/portfolio.js') }}
 {{ Theme::asset()->usePath()->add('stylesheet-css', 'css/stylesheet.css') }}
 
+<!--LOADER-->
+<div class="loader">
+    <img src="{{url('/img/loader.gif') }}"/>
+</div>
 <!--HOME-->
 <section id="home">
     <div class="container">
@@ -56,7 +60,7 @@
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum fringilla sem, non varius eros vehicula eu.</p>
                 <div>
-                    <button type="button" class="btn-download btn">Download CV</button>
+                    <a style="outline: none" href="{{url('/img/Guiao-Jomel-Marty-G.-CV.pdf') }}" download><button type="button" class="btn-download btn">Download CV</button></a>
                 </div>
             </div>
             <div class="col-md-2 my-picture-container">

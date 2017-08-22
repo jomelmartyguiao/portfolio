@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="keywords" content="{!! Theme::get('keywords') !!}">
         <meta name="description" content="{!! Theme::get('description') !!}">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--        <link type="text/css" rel="stylesheet" href="{{ url('css/stylesheet.css') }}"/>-->
 <!--        <link type="text/css" rel="stylesheet" href="{{ url('css/portfolio.css') }}"/>-->
 <!--        <link type="text/css" rel="stylesheet" href="{{ url('css/font-awesome.css') }}"/>-->
@@ -18,16 +18,6 @@
         {!! Theme::asset()->scripts() !!}
     </head>
     <body>
-<!--    LOADER-->
-    <div class="loader">
-        <img src="{{url('/img/loader.gif') }}"/>
-    </div>
             {!! Theme::content() !!}
-<!--            <script type="text/javascript" src="{{ url('js/jquery-3.1.1.min.js') }}"></script>-->
-<!--            <script src="{{ url('js/wow.js') }}"></script>-->
-<!--            <script src="{{ url('js/wow.min.js') }}"></script>-->
-<!--            <script src="{{ url('js/bootstrap.min.js') }}"></script>-->
-<!--            <script type="text/javascript" src="{{ url('js/slick.js') }}"></script>-->
-<!--           <script type="text/javascript" src="{{ url('js/home.js') }}"></script-->
     </body>
 </html>

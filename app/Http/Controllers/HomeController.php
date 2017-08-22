@@ -9,6 +9,12 @@ class HomeController extends Controller {
         return $theme->of('welcome', $view)->render();
     }
 
+    public function home(){
+        $theme = Theme::uses('default')->layout('default');
+        $view = array('name' => 'Teepluss');
+        return $theme->of('home', $view)->render();
+    }
+
     public function add(){
         $theme = Theme::uses('default')->layout('default');
         $view = array('name' => 'Teepluss');
@@ -20,5 +26,4 @@ class HomeController extends Controller {
         $view = array('name' => 'Teepluss');
         return $theme->of('portfolio', $view)->render();
     }
-
 }

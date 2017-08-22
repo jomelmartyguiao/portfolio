@@ -75,7 +75,6 @@ return array(
             $theme->asset()->usePath()->add('slick-js', 'js/slick.js');
             $theme->asset()->usePath()->add('wow-js', 'js/wow.js');
             $theme->asset()->usePath()->add('wow.min-js', 'js/wow.min.js');
-
         },
 
         // Listen on event before render a layout,
