@@ -9,6 +9,25 @@ $(document).ready(function(){
         $(".navbar ul li").removeClass();
         $(this).addClass("active");
     });
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 0) {
+            $(".navbar ul li").removeClass();
+            $("#white-li").addClass("active");
+        } if ($(this).scrollTop() > 660) {
+            $(".navbar ul li").removeClass();
+            $("#blue-li").addClass("active");
+        } if ($(this).scrollTop() > 1320) {
+            $(".navbar ul li").removeClass();
+            $("#orange-li").addClass("active");
+        } if ($(this).scrollTop() > 1980) {
+            $(".navbar ul li").removeClass();
+            $("#yellow-li").addClass("active");
+        }
+    });
+
+
+    //full page scroll
     var divs = $('.mydiv');
     var dir = 'up'; // wheel scroll direction
     var div = 0; // current div

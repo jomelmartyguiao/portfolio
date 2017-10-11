@@ -14,10 +14,10 @@
             </div>
             <div class="collapse navbar-collapse" id="home-navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a id="white-a" data-id="#white" href="#" class="fa fa-cloud"></a></li>
-                    <li><a id="blue-a" data-id="#blue" href="#" class="fa fa-cloud blue"></a></li>
-                    <li><a id="orange-a" data-id="#orange" href="#" class="fa fa-cloud orange"></a></li>
-                    <li><a id="yellow-a" data-id="#yellow" href="#" class="fa fa-cloud yellow"></a></li>
+                    <li class="active" id="white-li"><a id="white-a" data-id="#white" href="#" class="fa fa-cloud"></a></li>
+                    <li id="blue-li"><a id="blue-a" data-id="#blue" href="#" class="fa fa-cloud blue"></a></li>
+                    <li id="orange-li"><a id="orange-a" data-id="#orange" href="#" class="fa fa-cloud orange"></a></li>
+                    <li id="yellow-li"><a id="yellow-a" data-id="#yellow" href="#" class="fa fa-cloud yellow"></a></li>
                 </ul>
             </div>
         </div>
@@ -34,7 +34,7 @@
                         <div class="page1-header">
                             <h1>HELLO!</h1>
                         </div>
-                        <p>My name is <strong>Jomel Marty Guiao</strong>.</p>
+                        <p>My name is <a href="http://jomelmartyguiao.herokuapp.com/portfolio" target="_blank" style="text-decoration: none"><strong>Jomel Marty Guiao</strong></a> .</p>
                         <p>Basically, I'm just a male human being</p>
                         <p>but I can wear different suits.</p>
                         <br/>
